@@ -41,7 +41,7 @@ def rotate(im_1):
     for i in range(m):
         for j in range(n):
             temp=image_1[i,j]
-            new_image=[j,i]=temp
+            new_image[j,i]=temp
             
     return new_image   
     
